@@ -74,23 +74,23 @@ export const ArrayList = {
     Setting: [
         {
             parentIndex: 3,
-            name: "Wallpaper",
-            icon: "https://cdn-icons-png.flaticon.com/512/8979/8979955.png"
+            name: "Bluetooth",
+            icon: "https://cdn-icons-png.flaticon.com/128/9173/9173887.png"
         },
         {
             parentIndex: 3,
-            name: "Theme",
-            icon: "https://cdn-icons-png.flaticon.com/512/3876/3876200.png"
+            name: "Display",
+            icon: "https://cdn-icons-png.flaticon.com/128/4854/4854302.png"
         },
         {
             parentIndex: 3,
-            name: "Date Time",
-            icon: "https://cdn-icons-png.flaticon.com/512/1388/1388629.png"
+            name: "Face ID",
+            icon: "https://cdn-icons-png.flaticon.com/128/6022/6022815.png"
         },
         {
             parentIndex: 3,
-            name: "Language",
-            icon: "https://cdn-icons-png.flaticon.com/512/5739/5739233.png"
+            name: "Date & Time",
+            icon: "https://cdn-icons-png.flaticon.com/128/1048/1048953.png"
         }
     ],
     Songs: [
