@@ -1,0 +1,92 @@
+.buttonSide {
+    width: 100%;
+    height: 235px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(85,85,85);
+}
+
+.buttonOuter {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.button {
+    background: transparent;
+    width: 55px;
+    height: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 0;
+    position: absolute;
+    color: rgb(85,85,85);
+    border: none;
+    cursor: pointer;
+}
+
+.menuButton {
+    font-size: 20px;
+    width: 66px;
+    top: 20px;
+}
+
+.back {
+    left: 0;
+}
+
+.back img{
+    display: inline-block;
+    width: 14px;
+}
+
+.forward {
+    right: 0;
+}
+
+.forward img{
+    display: inline-block;
+    width: 14px;
+}
+
+.playPause {
+    font-size: 25px;
+    bottom: 20px;
+    padding-right: 11px;
+}
+
+.playPause > img {
+    display: inline-block;
+    width: 24px;
+}
+
+.buttonInner {
+    clip-path: circle(50% at 50% 50%);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 20px;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+    box-shadow: inset 0 2px 8px black;
+    background-color: #5555; 
+    background-size: 300%;
+    background-position: left;
+    transition: 0.5s background-position linear;
+}
+
+.buttonInner:hover {
+    background-position: right;
+}
