@@ -17,9 +17,7 @@ The iPod Clone project is a React-based clone of the classic iPod interface. It 
 
 ## Features
 
-- **User Authentication**: Secure user sign-up and sign-in functionality with authentication.
-
-- **Menu Page**: Differentiates between administrators and employees, granting access to specific features accordingly.
+- **Menu Page**: Includes four different menu options (wallpaper, music, app store, settings).
 
 - **ZingTouch Integration**: Administrators can assign reviews to employees.
   
@@ -36,7 +34,7 @@ The iPod Clone project is a React-based clone of the classic iPod interface. It 
   
 - **iPodButtons.js**: A component responsible for rendering and handling the button interactions. It utilizes ZingTouch for gesture recognition and includes buttons for Menu, Backward, Forward, and Play/Pause.
   
-- **ipodDisplay.js**: Manages the display and navigation of the iPod interface. It includes the clock display, battery and Wi-Fi icons, and dynamically renders the appropriate content based on the selected menu and state.
+- **iPodDisplay.js**: Manages the display and navigation of the iPod interface. It includes the clock display, battery and Wi-Fi icons, and dynamically renders the appropriate content based on the selected menu and state.
 
 
 ## Getting Started
