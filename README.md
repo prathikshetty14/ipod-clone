@@ -19,11 +19,11 @@ The iPod Clone project is a React-based clone of the classic iPod interface. It 
 
 - **Menu Page**: Includes four different menu options (wallpaper, music, app store, settings).
 
-- **ZingTouch Integration**: Administrators can assign reviews to employees.
+- **ZingTouch Integration**: Utilizes ZingTouch for button interactions and gesture recognition.
   
-- **Music Section**: Employees can submit their reviews.
+- **Music Section**: Fully functional, with the ability to play, pause, skip to the next track, and return to the previous track.
   
-- **Navigation Bar**: Administrators can view, update, and delete reviews.
+- **Navigation Bar**: Features a live clock display.
 
 
 ## Project Structure
